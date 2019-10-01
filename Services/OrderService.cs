@@ -30,7 +30,6 @@ namespace Challenge.Services
             try
             {
                 var result = await BankService.TransactionProcess(order.ClientId, order.CardNumber, order.CVV, order.CardExpiry.ToString(), order.OrderRef, order.OrderDate.ToString(), order.Amount, order.MerchantID);
-                //var result = new BankResponse();
                 if (result.Message.ToUpper() == "SUCCESS")
                 {
                     await _orderRepository.AddAsync(order);
@@ -42,7 +41,7 @@ namespace Challenge.Services
             catch (Exception ex)
             {
                 // Do some logging stuff
-                return new SaveOrderResponse($"An error occurred when saving the Order: {ex.Message}");
+                return new SaveOrderResponse($"An error occurred when saving the Order.");
             }
         }
 

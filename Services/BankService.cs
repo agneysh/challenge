@@ -12,7 +12,7 @@ namespace Challenge.Services
 {
     public class BankService
     {
-        public static async Task<BankResponse> TransactionProcess(string ClientID, string Card, int CVV, string CardExpiry, string OrderReference, string OrderDate, Double Amount, string MerchantID)
+        public static async Task<BankResponse> TransactionProcess(string ClientID, long Card, int CVV, string CardExpiry, string OrderReference, string OrderDate, double Amount, string MerchantID)
         {
             var client = new HttpClient();
             var values = new Dictionary<string, string>
@@ -23,7 +23,7 @@ namespace Challenge.Services
             { "CardExpiry", CardExpiry },
             { "OrderReference", OrderReference},
             { "OrderDate", OrderDate},
-            { "Amount", Amount.ToString() },
+            { "Amount", Amount.ToString()},
             { "MerchantID", MerchantID},
 
             };

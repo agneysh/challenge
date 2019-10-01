@@ -14,7 +14,7 @@ namespace Challenge.Resources
 
         //[Required]
         //[MaxLength(16)]
-        public string CardNumber { get; set; }
+        public long CardNumber { get; set; }
 
         //[Required]
         //[MaxLength(3)]
@@ -30,7 +30,7 @@ namespace Challenge.Resources
         public string OrderDate { get; set; }
 
         //[Required]
-        public Double Amount { get; set; }
+        public double Amount { get; set; }
         public string Currency { get; set; }
 
         //[Required]

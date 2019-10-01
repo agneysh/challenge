@@ -37,7 +37,7 @@ namespace Challenge.Persistence.Contexts
                 new Order {
                     OrderId = 1,
                     ClientId = "CL123",
-                    CardNumber = "1111222233334444",
+                    CardNumber = 1111222233334444,
                     CVV = 123,
                     CardExpiry = "09/2019",
                     OrderRef = "ORD1CL123",
@@ -52,7 +52,7 @@ namespace Challenge.Persistence.Contexts
                  new Order {
                     OrderId = 2,
                     ClientId = "CL124",
-                    CardNumber = "5555666677778888",
+                    CardNumber = 5555666677778888,
                     CVV = 321,
                     CardExpiry = "01/2020",
                     OrderRef = "ORD2CL124",
