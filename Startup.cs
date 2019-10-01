@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Challenge.Domain.Repositories;
 using Challenge.Domain.Services;
+using Challenge.Models;
 using Challenge.Persistence.Contexts;
 using Challenge.Persistence.Repositories;
 using Challenge.Services;
@@ -34,9 +35,10 @@ namespace Challenge
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddDbContext<AppDbContext>(options =>
+            services.AddDbContext<OrderAPIContext>(options =>
             {
                 options.UseInMemoryDatabase("Challenge");
+                //options.UseSqlServer(Configuration.GetConnectionString("OrderAPIContext"));
             });
 
             services.AddScoped<IOrderRepository, OrderRepository>();
