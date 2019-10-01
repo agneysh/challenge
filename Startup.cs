@@ -35,7 +35,7 @@ namespace Challenge
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddDbContext<OrderAPIContext>(options =>
+            services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase("Challenge");
                 //options.UseSqlServer(Configuration.GetConnectionString("OrderAPIContext"));

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amathura\\source\\repos\\Challenge\\Challenge.csproj": {}
+    "C:\\Users\\amathura\\source\\repos\\Git\\challenge\\Challenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amathura\\source\\repos\\Challenge\\Challenge.csproj": {
+    "C:\\Users\\amathura\\source\\repos\\Git\\challenge\\Challenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amathura\\source\\repos\\Challenge\\Challenge.csproj",
+        "projectUniqueName": "C:\\Users\\amathura\\source\\repos\\Git\\challenge\\Challenge.csproj",
         "projectName": "Challenge",
-        "projectPath": "C:\\Users\\amathura\\source\\repos\\Challenge\\Challenge.csproj",
+        "projectPath": "C:\\Users\\amathura\\source\\repos\\Git\\challenge\\Challenge.csproj",
         "packagesPath": "C:\\Users\\amathura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amathura\\source\\repos\\Challenge\\obj\\",
+        "outputPath": "C:\\Users\\amathura\\source\\repos\\Git\\challenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

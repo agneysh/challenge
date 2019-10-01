@@ -12,3 +12,17 @@ C:\Users\amathura\source\repos\Challenge\obj\Debug\netcoreapp2.2\Challenge.Razor
 C:\Users\amathura\source\repos\Challenge\bin\Debug\netcoreapp2.2\Challenge.pdb
 C:\Users\amathura\source\repos\Challenge\obj\Debug\netcoreapp2.2\Challenge.dll
 C:\Users\amathura\source\repos\Challenge\obj\Debug\netcoreapp2.2\Challenge.pdb
+C:\Users\amathura\source\repos\Git\challenge\bin\Debug\netcoreapp2.2\Challenge.deps.json
+C:\Users\amathura\source\repos\Git\challenge\bin\Debug\netcoreapp2.2\Challenge.runtimeconfig.json
+C:\Users\amathura\source\repos\Git\challenge\bin\Debug\netcoreapp2.2\Challenge.runtimeconfig.dev.json
+C:\Users\amathura\source\repos\Git\challenge\bin\Debug\netcoreapp2.2\Challenge.dll
+C:\Users\amathura\source\repos\Git\challenge\bin\Debug\netcoreapp2.2\Challenge.pdb
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.csprojAssemblyReference.cache
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.csproj.CoreCompileInputs.cache
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.RazorAssemblyInfo.cache
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.RazorAssemblyInfo.cs
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.AssemblyInfoInputs.cache
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.AssemblyInfo.cs
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.RazorTargetAssemblyInfo.cache
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.dll
+C:\Users\amathura\source\repos\Git\challenge\obj\Debug\netcoreapp2.2\Challenge.pdb
